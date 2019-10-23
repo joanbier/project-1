@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Domek</title>
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    position: absolute;
+    border: 2px black solid;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    font-family: arial;
+    top: 10vh;
+    left: 20vw;
+    cursor: pointer;
+}
+
+
+
+div {
+    position: absolute;
+    top: 80vh;
+    left: 5vw;
+    width: 10px;
+    height: 10px;
+    background-color: brown;
+}
+
+span:hover ~ .roof {
+    width: 60vh;
+    height: 60vh;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(405deg);
+    z-index: +1;
+    transition: 1s;
+    
+}
+span:hover ~ .chimney {
+    width: 11vh;
+    height: 11vh;
+    background-color: gray;
+    top: 20vh;
+    left: 55vw;
+    transition: 1s;
+}
+span:hover ~ .front {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 84.6vh;
+    height: 43vh;
+    background-color: red;
+    z-index: +2;
+    transition: 0.5s linear 0.5s;
+}
+
+span:hover ~ .window1 {
+    width: 15vh;
+height: 15vh;
+background-color: yellow;
+border: 2px solid black;
+z-index: +3;
+
+    top: 58vh;
+    left: 35vw;
+    transition: 0.5s ease 1s;
+}
+span:hover ~ .window2 {
+    width: 15vh;
+height: 15vh;
+background-color: yellow;
+border: 2px solid black;
+z-index: +3;
+    top: 58vh;
+    left: 55vw;
+    transition: 0.5s ease 1s;
+}
+span:hover ~ .door {
+    height: 22vh;
+    width: 8vw;
+    background-color: gainsboro;
+    top: 71vh;
+    left: 45%;
+    z-index: +3;
+    transition: 2s;
+}
+
+    </style>
+
+</head>
+
+<body>
+    <span>BUDUJEMY</span>
+    <div class="roof"></div>
+    <div class="chimney"></div>
+    <div class="front"></div>
+    <div class="window1"></div>
+    <div class="window2"></div>
+    <div class="door"></div>
+</body>
+
+</html>
