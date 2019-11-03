@@ -1,2 +1,2 @@
 # CSS, Traing of animation
-my first repositorium
+my first repository
