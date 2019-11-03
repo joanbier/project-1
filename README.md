@@ -1,2 +1,2 @@
-# project-1
-pierwsze repozyorium
+# CSS Traing of animation
+my first repositorium
