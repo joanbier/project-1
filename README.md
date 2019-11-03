@@ -1,2 +1,2 @@
-# CSS Traing of animation
+# CSS, Traing of animation
 my first repositorium
